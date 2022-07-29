@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8" />
+	<title>Contato</title>
+	<link rel="stylesheet" href="_css/home.css" />
+	
+</head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
+<body>
+	
+	<div id="interface">
+		
+		<header id="cabecalho">
+	<hr id="linha-vertical">
+<h1 id="h1contato">FAÇA CONTATO</h1>
+			<img id="icone" src="_imagens/contato.png"/>
+			<img id="minhafoto" src="_imagens/Marcel%20foto.jpg"/>
+		
+			<nav id="menu">
+			<ul type="disc">
+<li onmouseover="mudafoto('_imagens/home.png')" onmouseout="mudafoto('_imagens/contato.png')" ><a href="Principal.html">Principal</a></li>
+<li onmouseover="mudafoto('_imagens/sobre.png')" onmouseout="mudafoto('_imagens/contato.png')" ><a href="sobre.html">Sobre</a></li>
+<li onmouseover="mudafoto('_imagens/fotos.png')" onmouseout="mudafoto('_imagens/contato.png')" ><a href="fotos.html">Fotos</a></li>
+<li onmouseover="mudafoto('_imagens/videos.png')" onmouseout="mudafoto('_imagens/contato.png')" ><a href="videos.html">Vídeos</a></li>
+<li onmouseover="mudafoto('_imagens/contato.png')" onmouseout="mudafoto('_imagens/contato.png')" ><a href="contato.html">Contato</a></li>
+				 </ul>
+				</nav>
+                </header>
+		
+		<section id="contato">
+			
+<form name="formulario" action="mailto:marcel.guedes64@gmail.com" method="post">
+
+<H1> Fale Conosco</H1>	
+
+<p id="nome"> <label id="lnome">Nome:</label> <input type="text" name="nome" placeholder="informe seu nome" required="required"/></p>
+
+<p id="mail"><label id="lemail">E-mail:</label> <input type="email" name="email" placeholder="informe seu email" required="required"/></p>
+
+<p id="assunto"><label id="lassunto">Assunto:</label> <input type="text" name="assunto" placeholder="informe o assunto" required="required"/></p>
+ <fieldset id="sexo"><legend>Sexo</legend>
+<p id="camposexo">    
+<input type="radio" name="tsexo" id="cmasc" value="masculino" /><label id="labelmasc">Masculino</label>
+<input type="radio" name="tsexo" id="cfem"  value="feminino"/><label id="labelfemi">Feminino</label></fieldset>
+
+<fieldset id="como"><legend id="lecomo">Como foi que ficou sabendo do site?</legend>
+<input type="checkbox" name="resposta" id="como1" value="Internet" /><label id="internet">Internet</label>
+<input type="checkbox" name="resposta" id="como2"  value="Redes Sociais"/><label id="redes">Redes Sociais</label>
+<input type="checkbox" name="resposta" id="como3"  value="Amigos"/><label id="amigos">Amigos</label></fieldset>
+
+<p id="mensagem"><label id="lmensagem">Mensagem:</label> <textarea name="mensagem" cols="45" rows="5" placeholder="deixe sua mensagem"></textarea></p>
+<p id="enviar">
+<input type="submit" name="enviar" value="Enviar"> </p>
+<p id="limpar">
+<input type="reset" name="limpar" value="Limpar"> </p>
+</form>
+
+            
+            <table id="tabela">
+                <tr><td colspan="3">Tabela de Contato</td></tr>
+ <tr><td rowspan="2">Marcel Guedes</td><td>Whatsapp</td><td>(065)99289-9477</td></tr>
+<tr><td>Celular</td><td>(065)99289-9477</td> </tr>
+<tr><td colspan="3"> Redes Sociais</td></tr>
+<tr><td>Canal do youtube</td><td colspan="2"><a href="https://www.youtube.com/user/expertplanet2011/featured" target="_blank" title="Visite o meu canal e se inscreva!">Marcel Guedes</a></td></tr>
+<tr><td>Facebook</td><td colspan="2"><a href="https://www.facebook.com/profile.php?id=100010516695998" target="_blank" title="Visite o meu facebook!">Marcel Guedes</a></td> </tr>
+                               
+
+
+
+</table>
+            
+     
+            
+	</section>
+        
+        
+				
+<footer id="rodape">
+<p><b><h5>Todos os direitos reservados © 2020 - by Marcel Guedes</h5><p></b><br/>
+    <a href="https://www.facebook.com/profile.php?id=100010516695998" target="_blank"><img src="_imagens/facebook.png"></a>&nbsp&nbsp
+    <a href="https://www.youtube.com/user/expertplanet2011/featured" target="_blank"><img src="_imagens/youtube.png"></a>
+
+        
+</footer>
+		
+</div>
+</body>
+</html>
